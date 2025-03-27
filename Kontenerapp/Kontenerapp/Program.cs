@@ -37,7 +37,7 @@ namespace ContainerManagement
                 ship.PrintShipInfo();
 
                 LiquidContainer newLiquid = new LiquidContainer(maxCapacity: 11000);
-                newLiquid.LoadCargo(9900, isHazardous: false); // 90% z 11000 kg
+                newLiquid.LoadCargo(9900, isHazardous: false);
                 ship.ReplaceContainer(liquidContainer.SerialNumber, newLiquid);
 
                 Console.WriteLine("\nStan statku po zastąpieniu kontenera płynnego:");
